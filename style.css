@@ -59,12 +59,16 @@ h2 {
 
 .wordmark {
   margin: 0;
-  font-size: clamp(2.6rem, 13vw, 5.5rem);
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  line-height: 1;
+  line-height: 0;
 }
-.wordmark span { color: var(--muted); font-weight: 400; }
+.wordmark img {
+  display: block;
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+  margin: 0 auto;
+  mix-blend-mode: screen;   /* drop the black backdrop, keep the neon glow */
+}
 
 .tagline {
   margin: 1.4rem 0 0;
