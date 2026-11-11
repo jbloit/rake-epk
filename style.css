@@ -55,7 +55,7 @@ h2 {
 }
 
 /* ---- Hero ---- */
-.hero { text-align: left; }
+.hero { text-align: center; }
 
 .wordmark {
   margin: 0;
@@ -64,9 +64,9 @@ h2 {
 .wordmark img {
   display: block;
   width: 100%;
-  max-width: 420px;
+  max-width: 480px;
   height: auto;
-  margin: 0;
+  margin: 0 auto;
   mix-blend-mode: screen;   /* drop the black backdrop, keep the neon glow */
 }
 
@@ -79,7 +79,8 @@ h2 {
 }
 
 /* ---- Bio ---- */
-.bio p { margin: 0 0 1.3rem; max-width: 60ch; }
+.bio { text-align: center; }
+.bio p { margin: 0 auto 1.3rem; max-width: 60ch; }
 .bio p:last-of-type { margin-bottom: 0; }
 
 .meta {
@@ -89,12 +90,13 @@ h2 {
   border-top: 1px solid var(--line);
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 0.55rem;
   font-size: 0.82rem;
 }
 .meta .label {
   display: inline-block;
-  min-width: 9em;
+  margin-right: 0.7em;
   color: var(--muted);
   text-transform: uppercase;
   letter-spacing: 0.18em;
