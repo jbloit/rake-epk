@@ -98,17 +98,6 @@ h2 {
 }
 
 /* ---- Release ---- */
-.release {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1.8rem;
-}
-.release-cover img {
-  display: block;
-  width: 100%;
-  height: auto;
-  border: 1px solid var(--line);
-}
 .release-info h2 {
   font-size: 1.15rem;
   text-transform: none;
@@ -182,11 +171,3 @@ h2 {
   letter-spacing: 0.2em;
 }
 
-/* ---- Wider screens ---- */
-@media (min-width: 620px) {
-  .release {
-    grid-template-columns: 1fr 1fr;
-    align-items: start;
-    gap: 2.2rem;
-  }
-}
