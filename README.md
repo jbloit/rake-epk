@@ -2,6 +2,8 @@
 
 A minimal single-page EPK for the R.A.K.E solo project.
 
+**Live:** https://jbloit.github.io/rake-epk/
+
 - `index.html` — the page
 - `style.css` — styles (near-black, monospace, single column)
 - `img/` — original photos + album cover
