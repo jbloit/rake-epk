@@ -55,7 +55,7 @@ h2 {
 }
 
 /* ---- Hero ---- */
-.hero { text-align: center; }
+.hero { text-align: left; }
 
 .wordmark {
   margin: 0;
@@ -64,9 +64,9 @@ h2 {
 .wordmark img {
   display: block;
   width: 100%;
-  max-width: 480px;
+  max-width: 100%;
   height: auto;
-  margin: 0 auto;
+  margin: 0;
   mix-blend-mode: screen;   /* drop the black backdrop, keep the neon glow */
 }
 
